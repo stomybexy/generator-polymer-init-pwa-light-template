@@ -1,0 +1,30 @@
+{
+  "/": {
+    "src/components/app-shell.js": {
+      "type": "script",
+      "weight": 1
+    },
+    "src/components/app-home.js": {
+      "type": "script",
+      "weight": 1
+    },
+    "node_modules/@webcomponents/webcomponentsjs/webcomponents-loader.js": {
+      "type": "script",
+      "weight": 1
+    }
+  },
+  "/home": {
+    "src/components/app-shell.js": {
+      "type": "script",
+      "weight": 1
+    },
+    "src/components/app-home.js": {
+      "type": "script",
+      "weight": 1
+    },
+    "node_modules/@webcomponents/webcomponentsjs/webcomponents-loader.js": {
+      "type": "script",
+      "weight": 1
+    }
+  }
+}
