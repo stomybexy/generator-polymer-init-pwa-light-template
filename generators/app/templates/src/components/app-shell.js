@@ -23,6 +23,15 @@ class AppShell extends connect(store)(LitElement) {
     // Anything that's related to rendering should be done in here.
     return html`
      ${SharedStyles}
+     <style>
+      .page {
+        display: none;
+      }
+
+      .page[active] {
+        display: block;
+      }
+    </style>
     <h1>${menuIcon} ${appTitle}</h1>
     
     <!-- Main content -->
